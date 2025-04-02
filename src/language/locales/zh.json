@@ -1,0 +1,703 @@
+{
+  "topBar": {
+    "search": {
+      "title": "搜索"
+    },
+    "user": {
+      "userCenter": "个人中心",
+      "docs": "使用文档",
+      "github": "Github",
+      "lockScreen": "锁定屏幕",
+      "logout": "退出登录"
+    }
+  },
+  "common": {
+    "tips": "提示",
+    "cancel": "取消",
+    "confirm": "确定",
+    "logOutTips": "您是否要退出登录?"
+  },
+  "search": {
+    "placeholder": "搜索页面",
+    "historyTitle": "搜索历史",
+    "switchKeydown": "切换",
+    "selectKeydown": "选择"
+  },
+  "setting": {
+    "menuType": {
+      "title": "菜单布局",
+      "list": ["垂直", "水平", "混合", "双列"]
+    },
+    "theme": {
+      "title": "主题风格",
+      "list": ["浅色", "深色", "系统"]
+    },
+    "menu": {
+      "title": "菜单风格"
+    },
+    "color": {
+      "title": "系统主题色"
+    },
+    "box": {
+      "title": "盒子样式",
+      "list": ["边框", "阴影"]
+    },
+    "container": {
+      "title": "容器宽度",
+      "list": ["铺满", "定宽"]
+    },
+    "basics": {
+      "title": "基础配置",
+      "list": [
+        "侧边栏开启手风琴模式",
+        "显示折叠侧边栏按钮",
+        "显示重载页面按钮",
+        "显示全局面包屑导航",
+        "开启多标签栏",
+        "显示多语言选择",
+        "显示顶部进度条",
+        "色弱模式",
+        "自动关闭设置中心",
+        "全局水印",
+        "菜单宽度",
+        "页面切换动画",
+        "自定义圆角"
+      ]
+    }
+  },
+  "notice": {
+    "title": "通知",
+    "btnRead": "标为已读",
+    "bar": ["通知", "消息", "代办"],
+    "text": ["暂无"],
+    "viewAll": "查看全部"
+  },
+  "worktab": {
+    "btn": ["关闭左侧", "关闭右侧", "关闭其它", "关闭全部"]
+  },
+  "console": {
+    "card": ["总访问次数", "在线访客数", "点击量", "文章数", "留言数", "待办任务"],
+    "histogram": {
+      "title": "访问量"
+    },
+    "plan": {
+      "title": "计划"
+    },
+    "lingChart": {
+      "title": "流量趋势"
+    },
+    "todo": {
+      "title": "代办事项"
+    },
+    "pieChart": {
+      "title": "分类统计"
+    }
+  },
+  "login": {
+    "leftView": {
+      "title": "航行通告管理系统",
+      "subTitle": "航行通告管理系统"
+    },
+    "title": "欢迎回来",
+    "subTitle": "输入您的账号和密码登录",
+    "placeholder": ["请输入账号", "请输入密码", "请拖动滑块完成验证"],
+    "sliderText": "按住滑块拖动",
+    "sliderSuccessText": "验证成功",
+    "rememberPwd": "记住密码",
+    "forgetPwd": "忘记密码",
+    "btnText": "登录",
+    "noAccount": "还没有账号？",
+    "register": "注册",
+    "success": {
+      "title": "登录成功",
+      "message": "欢迎回来"
+    }
+  },
+  "forgetPassword": {
+    "title": "忘记密码？",
+    "subTitle": "输入您的电子邮件来重置您的密码",
+    "placeholder": "请输入您的电子邮件",
+    "submitBtnText": "提交",
+    "backBtnText": "返回"
+  },
+  "register": {
+    "title": "创建账号",
+    "subTitle": "欢迎加入我们，请填写以下信息完成注册",
+    "placeholder": ["请输入账号", "请输入密码", "请再次输入密码"],
+    "rule": [
+      "请再次输入密码",
+      "两次输入密码不一致!",
+      "长度在 3 到 20 个字符",
+      "密码长度不能小于6位",
+      "请同意隐私协议"
+    ],
+    "agreeText": "我同意",
+    "privacyPolicy": "《隐私政策》",
+    "submitBtnText": "注册",
+    "hasAccount": "已有账号？",
+    "toLogin": "去登录"
+  },
+  "lockScreen": {
+    "pwdError": "密码错误",
+    "lock": {
+      "inputPlaceholder": "请输入锁屏密码",
+      "btnText": "锁定"
+    },
+    "unlock": {
+      "inputPlaceholder": "请输入解锁密码",
+      "btnText": "解锁",
+      "backBtnText": "返回登录"
+    }
+  },
+  "analysis": {
+    "todaySales": {
+      "title": "今日销售",
+      "subtitle": "销售总结",
+      "export": "导出",
+      "cards": {
+        "totalSales": {
+          "label": "总销售额",
+          "change": "+15%"
+        },
+        "totalOrder": {
+          "label": "总订单",
+          "change": "+5%"
+        },
+        "productSold": {
+          "label": "已售产品",
+          "change": "+2%"
+        },
+        "newCustomers": {
+          "label": "新客户",
+          "change": "+8%"
+        }
+      },
+      "fromYesterday": "较昨天"
+    },
+    "visitorInsights": {
+      "title": "访客洞察",
+      "legend": {
+        "loyalCustomers": "忠实客户",
+        "newCustomers": "新客户"
+      }
+    },
+    "totalRevenue": {
+      "title": "总收入",
+      "legend": {
+        "onlineSales": "线上销售",
+        "offlineSales": "线下销售"
+      }
+    },
+    "customerSatisfaction": {
+      "title": "客户满意度",
+      "legend": {
+        "lastMonth": "上月",
+        "thisMonth": "本月"
+      }
+    },
+    "targetVsReality": {
+      "title": "目标与实际",
+      "realitySales": {
+        "label": "实际销售",
+        "sublabel": "全球"
+      },
+      "targetSales": {
+        "label": "目标销售",
+        "sublabel": "商业"
+      }
+    },
+    "topProducts": {
+      "title": "热门产品",
+      "columns": {
+        "name": "名称",
+        "popularity": "热度",
+        "sales": "销量"
+      },
+      "products": {
+        "homeDecor": {
+          "name": "家居装饰系列",
+          "sales": "10%"
+        },
+        "disneyBag": {
+          "name": "迪士尼公主粉色包 18\"",
+          "sales": "29%"
+        },
+        "bathroom": {
+          "name": "浴室用品",
+          "sales": "65%"
+        },
+        "smartwatch": {
+          "name": "苹果智能手表",
+          "sales": "32%"
+        },
+        "fitness": {
+          "name": "健身追踪器",
+          "sales": "78%"
+        },
+        "earbuds": {
+          "name": "无线耳机",
+          "sales": "41%"
+        }
+      }
+    },
+    "salesMappingCountry": {
+      "title": "各国销售分布"
+    },
+    "volumeServiceLevel": {
+      "title": "业务量与服务水平",
+      "legend": {
+        "volume": "业务量",
+        "services": "服务"
+      }
+    }
+  },
+  "greeting": {
+    "dawn": "凌晨了！",
+    "morning": "上午好！",
+    "afternoon": "下午好！",
+    "evening": "晚上好！"
+  },
+  "menus": {
+    "login": {
+      "title": "登录"
+    },
+    "register": {
+      "title": "注册"
+    },
+    "forgetPassword": {
+      "title": "忘记密码"
+    },
+    "outside": {
+      "title": "内嵌页面"
+    },
+    "dashboard": {
+      "title": "仪表盘",
+      "console": "工作台",
+      "analysis": "NOTAM分析"
+    },
+    "widgets": {
+      "title": "组件中心",
+      "iconList": "Icon 图标",
+      "iconSelector": "图标选择器",
+      "imageCrop": "图像裁剪",
+      "excel": "Excel 导入导出",
+      "video": "视频播放器",
+      "countTo": "数字滚动",
+      "wangEditor": "富文本编辑器",
+      "watermark": "水印",
+      "contextMenu": "右键菜单",
+      "qrcode": "二维码",
+      "drag": "拖拽",
+      "textScroll": "文字滚动",
+      "fireworks": "礼花",
+      "elementUI": "组件总览"
+    },
+    "template": {
+      "title": "模板中心",
+      "chat": "聊天",
+      "cards": "卡片",
+      "banners": "横幅",
+      "charts": "图表",
+      "map": "地图",
+      "calendar": "日历",
+      "pricing": "定价"
+    },
+    "article": {
+      "title": "文章管理",
+      "articleList": "文章列表",
+      "articleDetail": "文章详情",
+      "comment": "留言管理",
+      "articlePublish": "文章发布"
+    },
+    "user": {
+      "title": "用户管理",
+      "account": "账号管理",
+      "department": "部门管理",
+      "role": "角色权限"
+    },
+    "menu": {
+      "title": "菜单管理",
+      "menu": "菜单权限",
+      "permission": "权限控制",
+      "nested": "嵌套菜单",
+      "menu1": "菜单1",
+      "menu2": "菜单2",
+      "menu21": "菜单2-1",
+      "menu3": "菜单3",
+      "menu31": "菜单3-1",
+      "menu32": "菜单3-2",
+      "menu321": "菜单3-2-1"
+    },
+    "result": {
+      "title": "结果页面",
+      "success": "成功页",
+      "fail": "失败页"
+    },
+    "exception": {
+      "title": "异常页面",
+      "notFound": "404",
+      "notFoundEn": "404",
+      "serverError": "500"
+    },
+    "system": {
+      "title": "系统管理",
+      "setting": "系统设置",
+      "api": "API管理",
+      "log": "系统日志"
+    },
+    "safeguard": {
+      "title": "运维管理",
+      "server": "服务器管理"
+    },
+    "plan": {
+      "title": "版本计划",
+      "log": "更新日志"
+    },
+    "help": {
+      "title": "帮助中心",
+      "document": "官方文档"
+    },
+    "notams": {
+      "title": "NOTAMS管理",
+      "search": "NOTAMS查询",
+      "searchResult": "NOTAMS查询结果展示",
+      "list": "NOTAMS列表"
+    }
+  },
+  "notam": {
+    "overview": {
+      "title": "NOTAM概览",
+      "subtitle": "实时监控NOTAM状态和趋势",
+      "total": "总NOTAM数",
+      "active": "生效NOTAM",
+      "pending": "待处理NOTAM",
+      "expired": "过期NOTAM",
+      "timeRange": {
+        "today": "今日",
+        "week": "本周",
+        "month": "本月"
+      }
+    },
+    "activity": {
+      "title": "NOTAM活动",
+      "subtitle": "最新NOTAM操作记录",
+      "create": "创建NOTAM",
+      "update": "更新NOTAM",
+      "delete": "删除NOTAM",
+      "review": "审核NOTAM",
+      "publish": "发布NOTAM",
+      "status": {
+        "draft": "草稿",
+        "pending": "待审核",
+        "approved": "已批准",
+        "rejected": "已拒绝",
+        "published": "已发布",
+        "expired": "已过期",
+        "processing": "处理中",
+        "cancelled": "已取消"
+      }
+    },
+    "list": {
+      "title": "NOTAM列表",
+      "subtitle": "管理所有NOTAM通告",
+      "refresh": "刷新",
+      "columns": {
+        "id": "ID",
+        "type": "类型",
+        "location": "位置",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "status": "状态",
+        "content": "内容",
+        "actions": "操作"
+      },
+      "actions": {
+        "view": "查看",
+        "edit": "编辑",
+        "delete": "删除"
+      }
+    },
+    "workflow": {
+      "steps": {
+        "create": "创建",
+        "review": "审核",
+        "approve": "批准",
+        "publish": "发布"
+      }
+    },
+    "analysis": {
+      "trends": {
+        "title": "NOTAM 趋势分析",
+        "subtitle": "最近30天 NOTAM 发布数量趋势",
+        "quantity": "数量",
+        "notamQuantity": "NOTAM 数量",
+        "day": "日",
+        "week": "周",
+        "month": "月",
+        "legend": {
+          "total": "总数",
+          "active": "生效",
+          "pending": "待处理"
+        }
+      },
+      "type": {
+        "title": "NOTAM 类型分析",
+        "subtitle": "各类型 NOTAM 数量变化趋势",
+        "quantity": "数量",
+        "week": "本周",
+        "month": "本月",
+        "year": "本年",
+        "legend": {
+          "facilities": "机场设施",
+          "runway": "跑道状态",
+          "navigation": "导航设备",
+          "airspace": "空域限制",
+          "weather": "天气条件",
+          "emergency": "紧急通知"
+        }
+      },
+      "validity": {
+        "title": "NOTAM 有效期分析",
+        "subtitle": "有效期分布和时间跨度统计",
+        "avgValidity": "平均有效期",
+        "activeNotams": "当前生效NOTAM",
+        "distribution": "分布",
+        "timeline": "时间轴",
+        "days": "天",
+        "expiringNotams": "即将过期NOTAM",
+        "next7Days": "未来7天",
+        "active": "生效中",
+        "expiring": "即将过期",
+        "new": "新增",
+        "quantity": "数量",
+        "legend": {
+          "active": "生效中",
+          "expiring": "即将过期",
+          "new": "新增",
+          "short": "短期",
+          "medium": "中期",
+          "long": "长期"
+        },
+        "periods": {
+          "short": "短期",
+          "medium": "中期",
+          "long": "长期",
+          "1to7": "1-7天",
+          "8to30": "8-30天",
+          "31to90": "31-90天",
+          "91to180": "91-180天",
+          "181to365": "181-365天",
+          "over365": "365天以上"
+        }
+      },
+      "efficiency": {
+        "title": "NOTAM 处理效率",
+        "subtitle": "处理时间和效率指标分析",
+        "minutes": "分钟",
+        "avgProcessingTime": "平均处理时长",
+        "responseRate": "及时响应率",
+        "completionRate": "按时完成率",
+        "processingTime": "处理时长",
+        "target": "目标值",
+        "increase": "增长",
+        "decrease": "减少",
+        "legend": {
+          "duration": "处理时长",
+          "response": "响应时间",
+          "completion": "完成率",
+          "target": "目标值",
+          "actual": "实际值"
+        },
+        "metrics": {
+          "duration": "处理时长",
+          "response": "响应时间",
+          "completion": "完成率"
+        }
+      },
+      "airport": {
+        "title": "机场 NOTAM 统计",
+        "subtitle": "各机场 NOTAM 发布情况",
+        "quantity": "数量",
+        "totalNotams": "NOTAM总数",
+        "activeNotams": "生效NOTAM",
+        "pendingNotams": "待处理NOTAM",
+        "week": "本周",
+        "month": "本月",
+        "quarter": "本季度",
+        "normal": "正常",
+        "warning": "警告",
+        "processingNotams": "处理中",
+        "avgProcessTime": "平均处理时间",
+        "efficiency": "处理效率",
+        "minutes": "分钟",
+        "legend": {
+          "total": "总数",
+          "active": "生效",
+          "pending": "待处理",
+          "processing": "处理中",
+          "normal": "正常",
+          "warning": "警告"
+        },
+        "metrics": {
+          "total": "总数",
+          "active": "生效",
+          "pending": "待处理"
+        }
+      },
+      "region": {
+        "title": "区域分布分析",
+        "subtitle": "各区域NOTAM发布情况统计",
+        "total": "总数",
+        "active": "活跃",
+        "pending": "待处理",
+        "totalRegions": "区域总数",
+        "maxNotamsRegion": "NOTAM最多区域",
+        "avgNotamsPerRegion": "区域平均NOTAM数",
+        "notams": "个NOTAM",
+        "notamCount": "NOTAM数量",
+        "unit": "个",
+        "types": {
+          "total": "总数",
+          "active": "活跃",
+          "pending": "待处理"
+        },
+        "tooltip": {
+          "notams": "个NOTAM"
+        }
+      },
+      "distribution": {
+        "title": "NOTAM 分布分析",
+        "subtitle": "各类型 NOTAM 数量分布",
+        "distribution": "分布",
+        "timeline": "时间轴",
+        "types": {
+          "total": "总数",
+          "active": "生效",
+          "pending": "待处理"
+        }
+      }
+    },
+    "airports": {
+      "ZBAA": "北京首都国际机场",
+      "ZSPD": "上海浦东国际机场",
+      "ZGGG": "广州白云国际机场",
+      "ZUUU": "成都双流国际机场",
+      "ZGSZ": "深圳宝安国际机场",
+      "ZPPP": "昆明长水国际机场",
+      "ZUCK": "重庆江北国际机场",
+      "ZHHH": "武汉天河国际机场"
+    },
+    "regions": {
+      "north": "华北地区",
+      "northeast": "东北地区",
+      "east": "华东地区",
+      "south": "华南地区",
+      "central": "中南地区",
+      "southwest": "西南地区",
+      "northwest": "西北地区",
+      "xinjiang": "新疆地区"
+    },
+    "management": {
+      "title": "NOTAM管理",
+      "subtitle": "管理所有NOTAM通告",
+      "actions": {
+        "create": "创建NOTAM",
+        "edit": "编辑",
+        "delete": "删除",
+        "view": "查看",
+        "publish": "发布",
+        "unpublish": "取消发布",
+        "archive": "归档",
+        "restore": "恢复",
+        "export": "导出",
+        "import": "导入",
+        "refresh": "刷新",
+        "search": "搜索",
+        "filter": "筛选",
+        "clear": "清除"
+      },
+      "columns": {
+        "id": "ID",
+        "title": "标题",
+        "type": "类型",
+        "status": "状态",
+        "priority": "优先级",
+        "airport": "机场",
+        "region": "区域",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "createdBy": "创建人",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间",
+        "publishedAt": "发布时间",
+        "description": "描述",
+        "content": "内容",
+        "attachments": "附件",
+        "remarks": "备注"
+      },
+      "status": {
+        "draft": "草稿",
+        "pending": "待审核",
+        "approved": "已批准",
+        "rejected": "已拒绝",
+        "published": "已发布",
+        "expired": "已过期",
+        "archived": "已归档",
+        "processing": "处理中"
+      },
+      "priority": {
+        "high": "高",
+        "medium": "中",
+        "low": "低"
+      },
+      "type": {
+        "new": "新建",
+        "modify": "修改",
+        "cancel": "取消",
+        "replace": "替换"
+      },
+      "filters": {
+        "title": "标题",
+        "type": "类型",
+        "status": "状态",
+        "priority": "优先级",
+        "airport": "机场",
+        "region": "区域",
+        "dateRange": "日期范围",
+        "createdBy": "创建人",
+        "searchPlaceholder": "搜索NOTAM...",
+        "filterPlaceholder": "选择筛选条件"
+      },
+      "messages": {
+        "createSuccess": "NOTAM创建成功",
+        "updateSuccess": "NOTAM更新成功",
+        "deleteSuccess": "NOTAM删除成功",
+        "publishSuccess": "NOTAM发布成功",
+        "unpublishSuccess": "NOTAM取消发布成功",
+        "archiveSuccess": "NOTAM归档成功",
+        "restoreSuccess": "NOTAM恢复成功",
+        "confirmDelete": "确定要删除这个NOTAM吗？",
+        "confirmPublish": "确定要发布这个NOTAM吗？",
+        "confirmUnpublish": "确定要取消发布这个NOTAM吗？",
+        "confirmArchive": "确定要归档这个NOTAM吗？",
+        "confirmRestore": "确定要恢复这个NOTAM吗？",
+        "noData": "暂无数据",
+        "loading": "加载中...",
+        "error": "加载失败，请重试"
+      },
+      "pagination": {
+        "total": "共 {total} 条",
+        "pageSize": "每页 {size} 条",
+        "currentPage": "第 {page} 页",
+        "prev": "上一页",
+        "next": "下一页",
+        "jumpTo": "跳转到"
+      }
+    },
+    "types": {
+      "new": "新建",
+      "replace": "替换",
+      "cancel": "取消"
+    }
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "topBar": {
+    "search": {
+      "title": "Rechercher"
+    },
+    "user": {
+      "userCenter": "Centre utilisateur",
+      "docs": "Documentation",
+      "github": "Github",
+      "lockScreen": "Verrouiller l'écran",
+      "logout": "Se déconnecter"
+    }
+  },
+  "common": {
+    "tips": "Conseils",
+    "cancel": "Annuler",
+    "confirm": {
+      "delete": "Voulez-vous vraiment supprimer {id} ?",
+      "yes": "Oui",
+      "no": "Non"
+    },
+    "logOutTips": "Voulez-vous vous déconnecter?",
+    "warning": "Attention",
+    "success": {
+      "delete": "Suppression réussie",
+      "refresh": "Actualisation réussie"
+    },
+    "error": {
+      "searchFailed": "La recherche a échoué, veuillez réessayer"
+    }
+  },
+  "search": {
+    "placeholder": "Rechercher une page",
+    "historyTitle": "Historique de recherche",
+    "switchKeydown": "Naviguer",
+    "selectKeydown": "Sélectionner"
+  },
+  "setting": {
+    "menuType": {
+      "title": "Disposition du menu",
+      "list": ["Vertical", "Horizontal", "Mixte", "Double"]
+    },
+    "theme": {
+      "title": "Style du thème",
+      "list": ["Clair", "Sombre", "Système"]
+    },
+    "menu": {
+      "title": "Style du menu"
+    },
+    "color": {
+      "title": "Couleur du thème"
+    },
+    "box": {
+      "title": "Style de boîte",
+      "list": ["Bordure", "Ombre"]
+    },
+    "container": {
+      "title": "Largeur du conteneur",
+      "list": ["Plein", "Fixe"]
+    },
+    "basics": {
+      "title": "Configuration de base",
+      "list": [
+        "Barre latérale en mode accordéon",
+        "Afficher le bouton de la barre latérale",
+        "Afficher le bouton de rechargement",
+        "Afficher le fil d'Ariane",
+        "Afficher les onglets de travail",
+        "Afficher la sélection multilingue",
+        "Afficher la barre de progression",
+        "Mode daltonien",
+        "Fermeture automatique du centre de paramètres",
+        "Filigrane global",
+        "Largeur du menu",
+        "Animation de page",
+        "Rayon personnalisé"
+      ]
+    }
+  },
+  "notice": {
+    "title": "Notifications",
+    "btnRead": "Marquer comme lu",
+    "bar": ["Notifications", "Messages", "À faire"],
+    "text": ["Aucun"],
+    "viewAll": "Voir tout"
+  },
+  "worktab": {
+    "btn": ["Fermer à gauche", "Fermer à droite", "Fermer les autres", "Tout fermer"]
+  },
+  "console": {
+    "card": [
+      "Visites totales",
+      "Visiteurs en ligne",
+      "Vues",
+      "Articles",
+      "Messages",
+      "Tâches à faire"
+    ],
+    "histogram": {
+      "title": "Visites"
+    },
+    "plan": {
+      "title": "Plan"
+    },
+    "lingChart": {
+      "title": "Tendance du trafic"
+    },
+    "todo": {
+      "title": "Tâches à faire"
+    },
+    "pieChart": {
+      "title": "Statistiques par catégorie"
+    }
+  },
+  "login": {
+    "leftView": {
+      "title": "Un modèle d'administration axé sur l'expérience utilisateur",
+      "subTitle": "Une interface élégante et pratique pour une excellente expérience utilisateur"
+    },
+    "title": "Bienvenue",
+    "subTitle": "Veuillez entrer votre compte et mot de passe pour vous connecter",
+    "placeholder": [
+      "Veuillez entrer votre compte",
+      "Veuillez entrer votre mot de passe",
+      "Veuillez faire glisser pour vérifier"
+    ],
+    "sliderText": "Faites glisser pour vérifier",
+    "sliderSuccessText": "Vérification réussie",
+    "rememberPwd": "Se souvenir du mot de passe",
+    "forgetPwd": "Mot de passe oublié",
+    "btnText": "Connexion",
+    "noAccount": "Pas encore de compte ?",
+    "register": "S'inscrire",
+    "success": {
+      "title": "Connexion réussie",
+      "message": "Bienvenue"
+    }
+  },
+  "forgetPassword": {
+    "title": "Mot de passe oublié ?",
+    "subTitle": "Entrez votre email pour réinitialiser votre mot de passe",
+    "placeholder": "Veuillez entrer votre email",
+    "submitBtnText": "Soumettre",
+    "backBtnText": "Retour"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "subTitle": "Bienvenue parmi nous, veuillez remplir les informations suivantes pour terminer l'inscription",
+    "placeholder": [
+      "Veuillez entrer votre compte",
+      "Veuillez entrer votre mot de passe",
+      "Veuillez confirmer votre mot de passe"
+    ],
+    "rule": [
+      "Veuillez confirmer votre mot de passe",
+      "Les mots de passe ne correspondent pas !",
+      "La longueur doit être entre 3 et 20 caractères",
+      "Le mot de passe doit contenir au moins 6 caractères",
+      "Veuillez accepter la politique de confidentialité"
+    ],
+    "agreeText": "J'accepte la",
+    "privacyPolicy": "politique de confidentialité",
+    "submitBtnText": "S'inscrire",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "toLogin": "Se connecter"
+  },
+  "lockScreen": {
+    "pwdError": "Mot de passe incorrect",
+    "lock": {
+      "inputPlaceholder": "Veuillez entrer le mot de passe de verrouillage",
+      "btnText": "Verrouiller"
+    },
+    "unlock": {
+      "inputPlaceholder": "Veuillez entrer le mot de passe de déverrouillage",
+      "btnText": "Déverrouiller",
+      "backBtnText": "Retour à la connexion"
+    }
+  },
+  "analysis": {
+    "todaySales": {
+      "title": "Ventes du jour",
+      "subtitle": "Résumé des ventes",
+      "export": "Exporter",
+      "cards": {
+        "totalSales": {
+          "label": "Ventes totales",
+          "change": "+15%"
+        },
+        "totalOrder": {
+          "label": "Commandes totales",
+          "change": "+5%"
+        },
+        "productSold": {
+          "label": "Produits vendus",
+          "change": "+2%"
+        },
+        "newCustomers": {
+          "label": "Nouveaux clients",
+          "change": "+8%"
+        }
+      },
+      "fromYesterday": "par rapport à hier"
+    },
+    "visitorInsights": {
+      "title": "Aperçu des visiteurs",
+      "legend": {
+        "loyalCustomers": "Clients fidèles",
+        "newCustomers": "Nouveaux clients"
+      }
+    },
+    "totalRevenue": {
+      "title": "Revenu total",
+      "legend": {
+        "onlineSales": "Ventes en ligne",
+        "offlineSales": "Ventes hors ligne"
+      }
+    },
+    "customerSatisfaction": {
+      "title": "Satisfaction client",
+      "legend": {
+        "lastMonth": "Mois dernier",
+        "thisMonth": "Ce mois-ci"
+      }
+    },
+    "targetVsReality": {
+      "title": "Objectif vs Réalité",
+      "realitySales": {
+        "label": "Ventes réelles",
+        "sublabel": "Global"
+      },
+      "targetSales": {
+        "label": "Objectif de ventes",
+        "sublabel": "Commercial"
+      }
+    },
+    "topProducts": {
+      "title": "Meilleurs produits",
+      "columns": {
+        "name": "Nom",
+        "popularity": "Popularité",
+        "sales": "Ventes"
+      },
+      "products": {
+        "homeDecor": {
+          "name": "Gamme décoration d'intérieur",
+          "sales": "10%"
+        },
+        "disneyBag": {
+          "name": "Sac rose Princesse Disney 18\"",
+          "sales": "29%"
+        },
+        "bathroom": {
+          "name": "Essentiels salle de bain",
+          "sales": "65%"
+        },
+        "smartwatch": {
+          "name": "Montres connectées Apple",
+          "sales": "32%"
+        },
+        "fitness": {
+          "name": "Tracker de fitness",
+          "sales": "78%"
+        },
+        "earbuds": {
+          "name": "Écouteurs sans fil",
+          "sales": "41%"
+        }
+      }
+    },
+    "salesMappingCountry": {
+      "title": "Répartition des ventes par pays"
+    },
+    "volumeServiceLevel": {
+      "title": "Volume et niveau de service",
+      "legend": {
+        "volume": "Volume",
+        "services": "Services"
+      }
+    }
+  },
+  "notam": {
+    "overview": {
+      "title": "Aperçu des NOTAM",
+      "subtitle": "Surveillance en temps réel de l'état et des tendances des NOTAM",
+      "total": "Total des NOTAM",
+      "active": "NOTAM actifs",
+      "pending": "NOTAM en attente",
+      "expired": "NOTAM expirés",
+      "timeRange": {
+        "today": "Aujourd'hui",
+        "week": "Cette semaine",
+        "month": "Ce mois"
+      }
+    },
+    "activity": {
+      "title": "Activité NOTAM",
+      "subtitle": "Derniers enregistrements d'opérations NOTAM",
+      "create": "Créer un NOTAM",
+      "update": "Mettre à jour le NOTAM",
+      "delete": "Supprimer le NOTAM",
+      "review": "Examiner le NOTAM",
+      "publish": "Publier le NOTAM",
+      "status": {
+        "draft": "Brouillon",
+        "pending": "En attente",
+        "approved": "Approuvé",
+        "rejected": "Rejeté",
+        "published": "Publié",
+        "expired": "Expiré",
+        "processing": "En cours",
+        "cancelled": "Annulé"
+      }
+    },
+    "workflow": {
+      "title": "Flux de travail NOTAM",
+      "subtitle": "Flux de travail NOTAM en cours",
+      "viewAll": "Tout",
+      "viewMine": "Les miens",
+      "steps": {
+        "create": "Créer",
+        "review": "Examiner",
+        "approve": "Approuver",
+        "publish": "Publier"
+      }
+    },
+    "search": {
+      "title": "Recherche NOTAM",
+      "airportCode": "Code aéroport/FIR",
+      "dateRange": "Période",
+      "type": "Type",
+      "search": "Rechercher",
+      "reset": "Réinitialiser",
+      "placeholder": {
+        "airport": "Entrez le code aéroport/FIR (ex: ZBAA)",
+        "startDate": "Date de début",
+        "endDate": "Date de fin"
+      }
+    },
+    "list": {
+      "title": "Liste des NOTAM",
+      "subtitle": "Gérer tous les avis NOTAM",
+      "refresh": "Actualiser",
+      "columns": {
+        "id": "ID",
+        "type": "Type",
+        "location": "Emplacement",
+        "startTime": "Heure de début",
+        "endTime": "Heure de fin",
+        "status": "Statut",
+        "content": "Contenu",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "Voir",
+        "edit": "Modifier",
+        "delete": "Supprimer"
+      }
+    },
+    "status": {
+      "title": "État du système",
+      "subtitle": "État en temps réel",
+      "valid": "Valide",
+      "expiringSoon": "Expire bientôt",
+      "expired": "Expiré",
+      "cancelled": "Annulé"
+    },
+    "distribution": {
+      "title": "Analyse de distribution",
+      "subtitle": "Distribution des NOTAM",
+      "types": {
+        "airport": "Par aéroport",
+        "type": "Par type",
+        "region": "Par région"
+      }
+    },
+    "types": {
+      "new": "Nouveau",
+      "replace": "Remplacer",
+      "cancel": "Annuler",
+      "facilities": "Installations aéroportuaires",
+      "runway": "État de la piste",
+      "navigation": "Équipement de navigation",
+      "airspace": "Restriction d'espace aérien",
+      "weather": "Conditions météorologiques",
+      "emergency": "Avis d'urgence"
+    },
+    "regions": {
+      "north": "Nord de la Chine",
+      "east": "Est de la Chine",
+      "south": "Sud de la Chine",
+      "southwest": "Sud-ouest de la Chine",
+      "northeast": "Nord-est de la Chine",
+      "northwest": "Nord-ouest de la Chine"
+    },
+    "airports": {
+      "ZBAA": "Aéroport International de Pékin-Capitale",
+      "ZSPD": "Aéroport International de Shanghai-Pudong",
+      "ZGGG": "Aéroport International de Guangzhou-Baiyun",
+      "ZUUU": "Aéroport International de Chengdu-Shuangliu",
+      "ZGSZ": "Aéroport International de Shenzhen-Bao'an",
+      "ZPPP": "Aéroport International de Kunming-Changshui",
+      "ZUCK": "Aéroport International de Chongqing-Jiangbei",
+      "ZHHH": "Aéroport International de Wuhan-Tianhe"
+    },
+    "analysis": {
+      "trends": {
+        "title": "Analyse des Tendances NOTAM",
+        "subtitle": "Tendances de Publication des NOTAM sur 30 Jours",
+        "quantity": "Quantité",
+        "notamQuantity": "Quantité de NOTAM",
+        "day": "Jour",
+        "week": "Semaine",
+        "month": "Mois",
+        "legend": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente"
+        }
+      },
+      "type": {
+        "title": "Analyse des Types de NOTAM",
+        "subtitle": "Tendances des Différents Types de NOTAM",
+        "quantity": "Quantité",
+        "week": "Cette Semaine",
+        "month": "Ce Mois",
+        "year": "Cette Année",
+        "legend": {
+          "facilities": "Installations Aéroportuaires",
+          "runway": "État de la Piste",
+          "navigation": "Équipement de Navigation",
+          "airspace": "Restrictions d'Espace Aérien",
+          "weather": "Conditions Météorologiques",
+          "emergency": "Avis d'Urgence"
+        }
+      },
+      "validity": {
+        "title": "Analyse de Validité des NOTAM",
+        "subtitle": "Distribution de Validité et Statistiques de Durée",
+        "avgValidity": "Validité Moyenne",
+        "activeNotams": "NOTAM Actifs",
+        "distribution": "Distribution",
+        "timeline": "Chronologie",
+        "days": "jours",
+        "expiringNotams": "NOTAM Expirants",
+        "next7Days": "7 Prochains Jours",
+        "active": "Actifs",
+        "expiring": "Expirants",
+        "new": "Nouveaux",
+        "quantity": "Quantité",
+        "legend": {
+          "active": "Actifs",
+          "expiring": "Expirants",
+          "new": "Nouveaux",
+          "short": "Court terme",
+          "medium": "Moyen terme",
+          "long": "Long terme"
+        },
+        "periods": {
+          "short": "Court terme",
+          "medium": "Moyen terme",
+          "long": "Long terme",
+          "1to7": "1-7 jours",
+          "8to30": "8-30 jours",
+          "31to90": "31-90 jours",
+          "91to180": "91-180 jours",
+          "181to365": "181-365 jours",
+          "over365": "Plus de 365 jours"
+        }
+      },
+      "efficiency": {
+        "title": "Efficacité du Traitement des NOTAM",
+        "subtitle": "Analyse du Temps de Traitement et des Indicateurs d'Efficacité",
+        "minutes": "minutes",
+        "avgProcessingTime": "Temps de Traitement Moyen",
+        "responseRate": "Taux de Réponse",
+        "completionRate": "Taux de Complétion",
+        "processingTime": "Temps de Traitement",
+        "target": "Valeur Cible",
+        "increase": "augmentation",
+        "decrease": "diminution",
+        "legend": {
+          "duration": "Durée de Traitement",
+          "response": "Temps de Réponse",
+          "completion": "Taux de Complétion",
+          "target": "Cible",
+          "actual": "Réel"
+        },
+        "metrics": {
+          "duration": "Durée de Traitement",
+          "response": "Temps de Réponse",
+          "completion": "Taux de Complétion"
+        }
+      },
+      "airport": {
+        "title": "Statistiques NOTAM par Aéroport",
+        "subtitle": "État de Publication des NOTAM par Aéroport",
+        "quantity": "Quantité",
+        "totalNotams": "Total des NOTAM",
+        "activeNotams": "NOTAM Actifs",
+        "pendingNotams": "NOTAM en Attente",
+        "week": "Cette Semaine",
+        "month": "Ce Mois",
+        "quarter": "Ce Trimestre",
+        "normal": "Normal",
+        "warning": "Avertissement",
+        "processingNotams": "En Traitement",
+        "avgProcessTime": "Temps de Traitement Moyen",
+        "efficiency": "Efficacité du Traitement",
+        "minutes": "minutes",
+        "legend": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente",
+          "processing": "En Traitement",
+          "normal": "Normal",
+          "warning": "Avertissement"
+        },
+        "metrics": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente"
+        }
+      },
+      "region": {
+        "title": "Analyse de Distribution Régionale",
+        "subtitle": "Distribution des NOTAM par Région",
+        "quantity": "Quantité",
+        "coverage": "Couverture Régionale",
+        "maxDensity": "Densité Maximale",
+        "maxDensityRegion": "Région de Densité Maximale",
+        "avgDensity": "Densité Moyenne",
+        "legend": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente",
+          "high": "Haute Densité",
+          "medium": "Densité Moyenne",
+          "low": "Basse Densité"
+        },
+        "regions": {
+          "north": "Chine du Nord",
+          "northeast": "Chine du Nord-Est",
+          "east": "Chine de l'Est",
+          "south": "Chine du Sud",
+          "southwest": "Chine du Sud-Ouest",
+          "northwest": "Chine du Nord-Ouest",
+          "xinjiang": "Région du Xinjiang"
+        },
+        "types": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente"
+        }
+      },
+      "distribution": {
+        "title": "Analyse de Distribution des NOTAM",
+        "subtitle": "Distribution des Différents Types de NOTAM",
+        "distribution": "Distribution",
+        "timeline": "Chronologie",
+        "types": {
+          "total": "Total",
+          "active": "Actifs",
+          "pending": "En Attente"
+        }
+      }
+    },
+    "management": {
+      "title": "Gestion des NOTAM",
+      "subtitle": "Gérer tous les avis NOTAM",
+      "actions": {
+        "create": "Créer un NOTAM",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "view": "Voir",
+        "publish": "Publier",
+        "unpublish": "Dépublier",
+        "archive": "Archiver",
+        "restore": "Restaurer",
+        "export": "Exporter",
+        "import": "Importer",
+        "refresh": "Actualiser",
+        "search": "Rechercher",
+        "filter": "Filtrer",
+        "clear": "Effacer"
+      },
+      "columns": {
+        "id": "ID",
+        "title": "Titre",
+        "type": "Type",
+        "status": "Statut",
+        "priority": "Priorité",
+        "airport": "Aéroport",
+        "region": "Région",
+        "startTime": "Date de début",
+        "endTime": "Date de fin",
+        "createdBy": "Créé par",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le",
+        "publishedAt": "Publié le",
+        "description": "Description",
+        "content": "Contenu",
+        "attachments": "Pièces jointes",
+        "remarks": "Remarques"
+      },
+      "status": {
+        "draft": "Brouillon",
+        "pending": "En attente",
+        "approved": "Approuvé",
+        "rejected": "Rejeté",
+        "published": "Publié",
+        "expired": "Expiré",
+        "archived": "Archivé",
+        "processing": "En cours"
+      },
+      "priority": {
+        "high": "Haute",
+        "medium": "Moyenne",
+        "low": "Basse"
+      },
+      "type": {
+        "new": "Nouveau",
+        "modify": "Modifier",
+        "cancel": "Annuler",
+        "replace": "Remplacer"
+      },
+      "filters": {
+        "title": "Titre",
+        "type": "Type",
+        "status": "Statut",
+        "priority": "Priorité",
+        "airport": "Aéroport",
+        "region": "Région",
+        "dateRange": "Période",
+        "createdBy": "Créé par",
+        "searchPlaceholder": "Rechercher des NOTAM...",
+        "filterPlaceholder": "Sélectionner les critères de filtrage"
+      },
+      "messages": {
+        "createSuccess": "NOTAM créé avec succès",
+        "updateSuccess": "NOTAM mis à jour avec succès",
+        "deleteSuccess": "NOTAM supprimé avec succès",
+        "publishSuccess": "NOTAM publié avec succès",
+        "unpublishSuccess": "NOTAM dépublié avec succès",
+        "archiveSuccess": "NOTAM archivé avec succès",
+        "restoreSuccess": "NOTAM restauré avec succès",
+        "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce NOTAM ?",
+        "confirmPublish": "Êtes-vous sûr de vouloir publier ce NOTAM ?",
+        "confirmUnpublish": "Êtes-vous sûr de vouloir dépublier ce NOTAM ?",
+        "confirmArchive": "Êtes-vous sûr de vouloir archiver ce NOTAM ?",
+        "confirmRestore": "Êtes-vous sûr de vouloir restaurer ce NOTAM ?",
+        "noData": "Aucune donnée disponible",
+        "loading": "Chargement...",
+        "error": "Échec du chargement, veuillez réessayer"
+      },
+      "pagination": {
+        "total": "Total {total} éléments",
+        "pageSize": "{size} éléments par page",
+        "currentPage": "Page {page}",
+        "prev": "Précédent",
+        "next": "Suivant",
+        "jumpTo": "Aller à"
+      }
+    }
+  }
+} 

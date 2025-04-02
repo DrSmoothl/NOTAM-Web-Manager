@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主要航线 -->
+  <g class="flight-routes">
+    <path d="M300,500 C600,400 900,450 1200,500 C1500,550 1800,500 2100,450" 
+          stroke="currentColor" 
+          stroke-width="1.5"
+          stroke-dasharray="8 4"
+          stroke-linecap="round"
+          class="route-1"/>
+    
+    <path d="M200,600 C500,550 800,600 1100,550 C1400,500 1700,550 2000,600" 
+          stroke="currentColor" 
+          stroke-width="1.5"
+          stroke-dasharray="8 4"
+          stroke-linecap="round"
+          class="route-2"/>
+    
+    <path d="M400,400 C700,450 1000,400 1300,450 C1600,500 1900,450 2200,400" 
+          stroke="currentColor" 
+          stroke-width="1.5"
+          stroke-dasharray="8 4"
+          stroke-linecap="round"
+          class="route-3"/>
+  </g>
+
+  <!-- 主要机场/城市标记 -->
+  <g class="airports">
+    <g class="airport" transform="translate(300,500)">
+      <circle r="4" fill="currentColor"/>
+      <circle r="8" fill="currentColor" fill-opacity="0.2"/>
+    </g>
+    
+    <g class="airport" transform="translate(800,450)">
+      <circle r="4" fill="currentColor"/>
+      <circle r="8" fill="currentColor" fill-opacity="0.2"/>
+    </g>
+    
+    <g class="airport" transform="translate(1300,500)">
+      <circle r="4" fill="currentColor"/>
+      <circle r="8" fill="currentColor" fill-opacity="0.2"/>
+    </g>
+    
+    <g class="airport" transform="translate(1800,450)">
+      <circle r="4" fill="currentColor"/>
+      <circle r="8" fill="currentColor" fill-opacity="0.2"/>
+    </g>
+  </g>
+
+  <!-- 装饰性的小圆点 -->
+  <g class="decorative-dots">
+    <circle cx="500" cy="600" r="2" fill="currentColor" fill-opacity="0.5"/>
+    <circle cx="1000" cy="550" r="2" fill="currentColor" fill-opacity="0.5"/>
+    <circle cx="1500" cy="600" r="2" fill="currentColor" fill-opacity="0.5"/>
+    <circle cx="700" cy="400" r="2" fill="currentColor" fill-opacity="0.5"/>
+    <circle cx="1200" cy="450" r="2" fill="currentColor" fill-opacity="0.5"/>
+    <circle cx="1700" cy="400" r="2" fill="currentColor" fill-opacity="0.5"/>
+  </g>
+</svg> 
