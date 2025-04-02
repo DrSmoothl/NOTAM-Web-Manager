@@ -1,73 +1,66 @@
 English | [简体中文](./README.md)
 
-## About Art Design Pro
+## About NOTAM Web Manager
 
-As a developer, I needed to build admin management systems for multiple projects but found that traditional systems couldn't fully meet the requirements for user experience and visual design. Therefore, I created Art Design Pro, an open-source admin management solution focused on user experience and rapid development. Based on the ElementPlus design specifications, it has been visually optimized to provide a more beautiful and practical front-end interface, helping you easily build high-quality admin systems.
+NOTAM Web Manager is a comprehensive web-based system designed for managing, analyzing, and distributing NOTAMs (Notice to Air Missions). This system helps aviation professionals efficiently handle flight operation notifications, ensuring the safety and effectiveness of air navigation.
 
-## Demo Images
+## Core Features
 
-### Light Theme
+### NOTAM Management
+- Efficient NOTAM creation and editing
+- Advanced search and filtering capabilities
+- Real-time NOTAM status tracking
+- Historical NOTAM archive management
 
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover1.png)
+### Analysis Tools
+- NOTAM impact analysis
+- Geographic visualization
+- Statistical reporting
+- Trend analysis and insights
 
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover2.png)
+### System Features
+- Multi-language support (English/Chinese)
+- Role-based access control
+- Real-time notifications
+- Mobile-responsive design
+- Customizable dashboard
+- Data export capabilities
 
-### Dark Theme
+## Technical Features
 
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover3.png)
+- Modern technology stack (Vue3, TypeScript, Vite)
+- Responsive UI with ElementPlus
+- Rich theme customization
+- Global search functionality
+- Secure authentication system
+- Comprehensive API integration
+- Mobile device optimization
 
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover4.png)
+## User Experience
 
-## Features
+- Intuitive interface design
+- Quick access to critical information
+- Customizable workspace
+- Real-time updates
+- Cross-platform compatibility
 
-- Uses the latest technology stack
-- Built-in common business component templates
-- Provides multiple theme modes and customizable themes
-- Beautiful UI design, excellent user experience, and attention to detail
-- System fully supports customization, meeting your personalized needs
-
-## Functionality
-
-- Rich theme switching
-- Global search
-- Lock screen
-- Multi-tabs
-- Global breadcrumbs
-- Multi-language support
-- Icon library
-- Rich text editor
-- Echarts charts
-- Utils toolkit
-- Network exception handling
-- Route-level authentication
-- Sidebar menu authentication
-- Authentication directives
-- Mobile adaptation
-- Excellent persistent storage solution
-- Local data storage validation
-- Code commit validation and formatting
-- Code commit standardization
-
-## Compatibility
-
-- Supports modern mainstream browsers such as Chrome, Safari, Firefox, etc.
-
-## Installation and Running
+## Installation and Setup
 
 ```bash
 # Install dependencies
 pnpm install
 
-# If pnpm install fails, try using the following command to install dependencies
+# Alternative installation command if needed
 pnpm install --ignore-scripts
 
-# Start local development environment
+# Start development server
 pnpm dev
 
 # Build for production
 pnpm build
 ```
 
-## Star History
+## Browser Compatibility
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Daymychen/art-design-pro&type=Date)](https://www.star-history.com/#Daymychen/art-design-pro&Date)
+- Supports all modern browsers (Chrome, Firefox, Safari, Edge)
+- Optimized for both desktop and mobile devices

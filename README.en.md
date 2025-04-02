@@ -1,78 +1,66 @@
 简体中文 | [English](./README.en.md)
 
-## 关于 Art Design Pro
+## 关于航行通告管理系统
 
-作为一名开发者，我在多个项目中需要搭建后台管理系统，但发现传统系统在用户体验和视觉设计上不能完全满足需求。因此，我创建了 Art Design Pro，一款专注于用户体验和快速开发的开源后台管理解决方案。基于 ElementPlus 设计规范，进行了视觉上的精心优化，提供更美观、更实用的前端界面，帮助你轻松构建高质量的后台系统。
+航行通告管理系统（NOTAM Web Manager）是一个专业的网络化管理平台，专门用于处理、分析和分发航行通告（NOTAM）。该系统帮助航空专业人员高效处理飞行运行通知，确保空中导航的安全性和有效性。
 
-## 演示图
+## 核心功能
 
-### 浅色主题
+### 通告管理
+- 高效的通告创建和编辑
+- 强大的搜索和筛选功能
+- 实时通告状态跟踪
+- 历史通告档案管理
 
-![浅色主题](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover1.png)
+### 分析工具
+- 通告影响分析
+- 地理位置可视化
+- 统计报表生成
+- 趋势分析与洞察
 
-![浅色主题](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover2.png)
+### 系统特性
+- 多语言支持（中文/英文）
+- 基于角色的访问控制
+- 实时通知提醒
+- 移动端响应式设计
+- 可定制化仪表盘
+- 数据导出功能
 
-### 暗黑主题
+## 技术特点
 
-![暗黑主题](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover3.png)
+- 现代化技术栈（Vue3、TypeScript、Vite）
+- 基于ElementPlus的响应式界面
+- 丰富的主题定制
+- 全局搜索功能
+- 安全的身份认证系统
+- 完整的API集成
+- 移动设备优化
 
-![暗黑主题](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover4.png)
+## 用户体验
 
-## 特点
+- 直观的界面设计
+- 快速访问关键信息
+- 可定制的工作空间
+- 实时更新
+- 跨平台兼容性
 
-- 使用最新技术栈
-- 内置常用业务组件模版
-- 提供多种主题模式，可以自定义主题
-- 漂亮的 UI设计、极致的用户体验和细节处理
-- 系统全面支持自定义设置，满足您的个性化需求
-
-## 技术栈
-
-- 开发框架：Vue3、TypeScript、Vite、Element-Plus
-- 代码规范：Eslint、Prettier、Stylelint、Husky、Lint-staged、cz-git
-
-## 功能
-
-- 丰富主题切换
-- 全局搜索
-- 锁屏
-- 多标签页
-- 全局面包屑
-- 多语言
-- 图标库
-- 富文本编辑器
-- Echarts 图表
-- Utils工具包
-- 网络异常处理
-- 路由级别鉴权
-- 侧边栏菜单鉴权
-- 鉴权指令
-- 移动端适配
-- 优秀的持久化存储方案
-- 本地数据存储校验
-- 代码提交校验与格式化
-- 代码提交规范化
-
-## 兼容性
-
-- 支持 Chrome、Safari、Firefox 等现代主流浏览器。
-
-## 安装运行
+## 安装与部署
 
 ```bash
 # 安装依赖
 pnpm install
 
-# 如果 pnpm install 安装失败，尝试使用下面的命令安装依赖
+# 如需要，可使用替代安装命令
 pnpm install --ignore-scripts
 
-# 本地开发环境启动
+# 启动开发服务器
 pnpm dev
 
-# 生产环境打包
+# 生产环境构建
 pnpm build
 ```
 
-## Star History
+## 浏览器兼容性
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Daymychen/art-design-pro&type=Date)](https://www.star-history.com/#Daymychen/art-design-pro&Date)
+- 支持所有现代浏览器（Chrome、Firefox、Safari、Edge）
+- 针对桌面端和移动端优化
