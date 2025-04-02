@@ -1,73 +1,66 @@
-English | [简体中文](./README.md)
+简体中文 | [English](./README.en.md)
 
-## About Art Design Pro
+## 关于航行通告管理系统
 
-As a developer, I needed to build admin management systems for multiple projects but found that traditional systems couldn't fully meet the requirements for user experience and visual design. Therefore, I created Art Design Pro, an open-source admin management solution focused on user experience and rapid development. Based on the ElementPlus design specifications, it has been visually optimized to provide a more beautiful and practical front-end interface, helping you easily build high-quality admin systems.
+航行通告管理系统（NOTAM Web Manager）是一个专业的网络化管理平台，专门用于处理、分析和分发航行通告（NOTAM）。该系统帮助航空专业人员高效处理飞行运行通知，确保空中导航的安全性和有效性。
 
-## Demo Images
+## 核心功能
 
-### Light Theme
+### 通告管理
+- 高效的通告创建和编辑
+- 强大的搜索和筛选功能
+- 实时通告状态跟踪
+- 历史通告档案管理
 
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover1.png)
+### 分析工具
+- 通告影响分析
+- 地理位置可视化
+- 统计报表生成
+- 趋势分析与洞察
 
-![Light Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover2.png)
+### 系统特性
+- 多语言支持（中文/英文）
+- 基于角色的访问控制
+- 实时通知提醒
+- 移动端响应式设计
+- 可定制化仪表盘
+- 数据导出功能
 
-### Dark Theme
+## 技术特点
 
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover3.png)
+- 现代化技术栈（Vue3、TypeScript、Vite）
+- 基于ElementPlus的响应式界面
+- 丰富的主题定制
+- 全局搜索功能
+- 安全的身份认证系统
+- 完整的API集成
+- 移动设备优化
 
-![Dark Theme](https://www.qiniu.lingchen.kim/art_design_pro_readme_cover4.png)
+## 用户体验
 
-## Features
+- 直观的界面设计
+- 快速访问关键信息
+- 可定制的工作空间
+- 实时更新
+- 跨平台兼容性
 
-- Uses the latest technology stack
-- Built-in common business component templates
-- Provides multiple theme modes and customizable themes
-- Beautiful UI design, excellent user experience, and attention to detail
-- System fully supports customization, meeting your personalized needs
-
-## Functionality
-
-- Rich theme switching
-- Global search
-- Lock screen
-- Multi-tabs
-- Global breadcrumbs
-- Multi-language support
-- Icon library
-- Rich text editor
-- Echarts charts
-- Utils toolkit
-- Network exception handling
-- Route-level authentication
-- Sidebar menu authentication
-- Authentication directives
-- Mobile adaptation
-- Excellent persistent storage solution
-- Local data storage validation
-- Code commit validation and formatting
-- Code commit standardization
-
-## Compatibility
-
-- Supports modern mainstream browsers such as Chrome, Safari, Firefox, etc.
-
-## Installation and Running
+## 安装与部署
 
 ```bash
-# Install dependencies
+# 安装依赖
 pnpm install
 
-# If pnpm install fails, try using the following command to install dependencies
+# 如需要，可使用替代安装命令
 pnpm install --ignore-scripts
 
-# Start local development environment
+# 启动开发服务器
 pnpm dev
 
-# Build for production
+# 生产环境构建
 pnpm build
 ```
 
-## Star History
+## 浏览器兼容性
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Daymychen/art-design-pro&type=Date)](https://www.star-history.com/#Daymychen/art-design-pro&Date)
+- 支持所有现代浏览器（Chrome、Firefox、Safari、Edge）
+- 针对桌面端和移动端优化
